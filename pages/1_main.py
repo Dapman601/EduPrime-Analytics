@@ -5,7 +5,7 @@ import plotly.express as px
 # Load the data from the specified path
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r'C:\Users\DELL\Documents\02_consults\code2\school_student_data.csv')  # Your dataset path
+    df = pd.read_csv('https://github.com/Dapman601/EduPrime-Analytics/blob/main/school_student_data.csv')  # Your dataset path
     return df
 
 df = load_data()
