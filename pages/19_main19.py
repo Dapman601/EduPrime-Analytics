@@ -5,7 +5,7 @@ import pandas as pd
 @st.cache_data
 def load_data():
     # Placeholder for actual data loading logic
-    df = pd.read_csv(r'C:\Users\DELL\Documents\02_consults\code2\school_student_data.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/Dapman601/EduPrime-Analytics/refs/heads/main/school_student_data.csv')
     return df
 
 df = load_data()
