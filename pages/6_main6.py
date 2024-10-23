@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load Data
-df = pd.read_csv(r'C:\Users\DELL\Documents\02_consults\code2\school_student_data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Dapman601/EduPrime-Analytics/refs/heads/main/school_student_data.csv')
 
 # Sidebar filters for demographic data
 st.sidebar.header('Filter Data')
