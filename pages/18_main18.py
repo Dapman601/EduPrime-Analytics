@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 # Load the dataset
-df = pd.read_csv(r'C:\Users\DELL\Documents\02_consults\code2\school_student_data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Dapman601/EduPrime-Analytics/refs/heads/main/school_student_data.csv')
 
 
 # Sidebar filters
