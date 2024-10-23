@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Load the dataset
-df = pd.read_csv(r'C:\Users\DELL\Documents\02_consults\code2\school_student_data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Dapman601/EduPrime-Analytics/refs/heads/main/school_student_data.csv')
 
 # Filter necessary columns from the dataset for ELA Proficiency
 # Ensure that the dataset has a column for the year and a column for ELA proficiency percentage
